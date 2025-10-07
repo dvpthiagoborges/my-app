@@ -9,7 +9,8 @@ import { HomeComponentComponent } from './modules/home-component/home-component.
 import { MainLayoutComponentComponent } from './layouts/main-layout-component/main-layout-component.component';
 import { AuthLayoutComponentComponent } from './layouts/auth-layout-component/auth-layout-component.component';
 import { LoginComponentComponent } from './modules/login-component/login-component.component';
-import { PerfilComponentComponent } from './modules/perfil-component/perfil-component.component';
+import { ProfileComponentComponent } from './modules/profile-component/profile-component.component';
+import { AboutComponentComponent } from './modules/about-component/about-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PerfilComponentComponent } from './modules/perfil-component/perfil-comp
     MainLayoutComponentComponent,
     AuthLayoutComponentComponent,
     LoginComponentComponent,
-    PerfilComponentComponent
+    ProfileComponentComponent,
+    AboutComponentComponent
   ],
   imports: [
     BrowserModule,
